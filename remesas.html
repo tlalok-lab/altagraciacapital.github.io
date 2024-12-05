@@ -175,27 +175,7 @@
   </footer>
 
 
-  <!-- ---------------------------------------------------------------- -->
-  <style>
-    #resolution {
-      position: fixed;
-      top: 100px;
-      right: 10px;
-      background-color: rgba(0, 0, 0, 0.7);
-      color: white;
-      padding: 10px;
-      border-radius: 5px;
-      font-family: Arial, sans-serif;
-    }
-  </style>
-  <div id="resolution"></div>
 
-  <script>
-    function showResolution() {
-      const width = window.innerWidth;
-      const height = window.innerHeight;
-      document.getElementById('resolution').innerText = `Resolución: ${width} x ${height}`;
-    }
 
     window.onload = showResolution;
     window.onresize = showResolution;
